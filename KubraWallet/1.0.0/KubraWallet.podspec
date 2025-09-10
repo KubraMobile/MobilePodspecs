@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = "KubraWallet"
-  s.version          = "1.0.0"
+  s.version          = "1.0.0" # x-release-please-version
   s.summary          = "KUBRA iMobile Wallet and Payment SDK"
   s.description      = "A KUBRA mobile payments and wallet framework"
   s.homepage         = "http://kubra.com/"
-  s.license          = "Private"
+  s.license          = { :type => "Proprietary", :text => "© KUBRA. All rights reserved." }
   s.author           = { "KUBRA" => "mobile@kubra.com" }
-  s.source           = { :http => 'https://ios-compiled-sdk-frameworks.s3.us-west-2.amazonaws.com/version/1.0.0/KubraWallet.zip' }
+  s.source           = { :http => "https://ios-compiled-sdk-frameworks.s3.us-west-2.amazonaws.com/version/1.0.0/KubraWallet.zip" , :sha256 => "f18254c4369943910e97d22b55c837ed0d04306ffc7e106884e159b942d7b695" }
 
   s.platform     = :ios, '16.4'
   s.requires_arc = true

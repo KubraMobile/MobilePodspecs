@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://kubra.com/"
   s.license          = { :type => "Proprietary", :text => "© KUBRA. All rights reserved." }
   s.author           = { "KUBRA" => "mobile@kubra.com" }
-  s.source           = { :http => "https://ios-compiled-sdk-frameworks.s3.us-west-2.amazonaws.com/version/1.10.0/KubraWallet.zip" , :sha256 => "b3b46352bbb616fee00c12974fbd42ce9879ac5c57705a154b4115df531694d0" }
+  s.source           = { :http => "https://ios-compiled-sdk-frameworks.s3.us-west-2.amazonaws.com/version/1.10.0/KubraWallet.zip" , :sha256 => "99fcb2ae833b8e4879282e2b33e00d88443b8bf1151149b2ae4615d9a82a22e5" }
 
   s.platform     = :ios, '16.4'
   s.requires_arc = true
